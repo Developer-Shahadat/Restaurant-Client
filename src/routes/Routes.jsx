@@ -1,4 +1,4 @@
-import { Children } from "react";
+
 import {
     createBrowserRouter,
     
@@ -12,7 +12,7 @@ import Main from "../Layout/Main";
       element: <Main></Main>,
         Children: [
         {
-            path: '/',
+            path: "/",
             element: <Home></Home>,
         }
       ]

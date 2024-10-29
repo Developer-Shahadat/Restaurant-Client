@@ -1,9 +1,20 @@
-import React from 'react';
+import Banner from "./Banner/Banner";
+import Card from "./Card/Card";
+import Category from "./Category/Category";
+import Featured from "./Category/Featured/Featured";
+import PopularMenu from "./PopularMenu/PopularMenu";
+import Testimonials from "./Testimonials/Testimonials";
+
 
 const Home = () => {
     return (
         <div>
-          <h1>This is our home page</h1>
+          <Banner></Banner>
+          <Category></Category>
+          <PopularMenu></PopularMenu>
+          <Card></Card>
+          <Featured></Featured>
+          <Testimonials></Testimonials>
         </div>
     );
 };
