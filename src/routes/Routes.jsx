@@ -7,6 +7,7 @@ import {
 import Home from "../pages/Home/Home";
 import Main from "../Layout/Main";
 import Menu from "../pages/Menu/Menu/Menu";
+import Order from "../pages/Order/Order/Order";
 
 
 
@@ -41,6 +42,7 @@ import Menu from "../pages/Menu/Menu/Menu";
       >
         <Route path="/" element={<Home/>}/>
         <Route path="menu" element={<Menu/>}/>
+        <Route path="order/:category" element={<Order/>}/>
         
       </Route>
     )
