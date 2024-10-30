@@ -1,21 +1,11 @@
+import {  Link } from "react-router-dom";
 
 
 const NavBar = () => {
     const navOptions = <>
-        <li><a>Home</a></li>
-        <li tabIndex={0}>
-            <a className="justify-between">
-                Contact
-               
-            </a>
-            {/* <ul className="p-2">
-                <li><a>Submenu 1</a></li>
-                <li><a>Submenu 2</a></li>
-            </ul> */}
-        </li>
-        <li><a>Our Menu</a></li>
-        <li><a>Dashboard</a></li>
-      
+        <li><Link to='/'>Home</Link></li>
+       <li><Link to='menu'>Menu</Link></li>
+       
     </>
     return (
         <>
